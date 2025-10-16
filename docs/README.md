@@ -32,18 +32,36 @@ OctoAcme projects involve clearly defined roles working collaboratively:
 
 **Developers** design, build, test, and deliver software components while collaborating with product and project leads to implement features meeting acceptance criteria and quality standards. They write and maintain tests and documentation, participate in design and code reviews, assist in estimation, and help identify technical risks.
 
+**UX Designers** focus on user experience, creating intuitive interfaces through research, design, and validation. They conduct usability testing, create wireframes and prototypes, ensure accessibility standards, and collaborate with Product Managers and Developers on design feasibility and implementation.
+
+**DevOps Engineers** build and maintain infrastructure, automation, and deployment pipelines that enable reliable, fast delivery. They manage CI/CD pipelines, implement monitoring and alerting, automate operational processes, and ensure security, compliance, and system reliability.
+
+**Data Analysts** turn data into insights that drive decisions by tracking KPIs, analyzing user behavior, conducting A/B tests, and providing evidence-based recommendations. They create dashboards, ensure data quality, and partner with Product Managers on defining and measuring success metrics.
+
+**Customer Support Representatives** serve as the voice of the customer, resolving issues while gathering feedback that informs product improvements. They document and escalate bugs, track support metrics, maintain knowledge bases, and collaborate with Product Managers and Developers to ensure customer satisfaction.
+
 **QA/Testing** roles validate quality and acceptance criteria through comprehensive testing approaches, while **Stakeholders** provide critical inputs and approvals throughout the project lifecycle.
+
+For complete role definitions, interaction patterns, and collaboration guidelines, see:
+- [Roles and Personas](octoacme-roles-and-personas.md) - Detailed role definitions with responsibilities and goals
+- [Role Interaction Matrix](role-interaction-matrix.md) - Collaboration patterns and hand-off points
+- [RACI Matrix Template](raci-matrix-template.md) - Accountability framework for key activities
 
 ## Communication Strategies
 
 OctoAcme maintains clear communication rhythms to ensure alignment and transparency:
 
 - Weekly syncs between Project Managers and Product Managers for alignment on priorities and progress
+- Weekly design reviews with Product Managers, UX Designers, and Developers
+- Weekly metrics reviews between Product Managers and Data Analysts
+- Weekly customer feedback reviews between Product Managers and Customer Support
 - Twice-weekly standups for delivery teams (or as agreed) to maintain daily coordination
 - Monthly stakeholder updates providing visibility into project status and upcoming milestones
 - Ad-hoc escalations as needed, following defined escalation paths from team-level to PM to Product Lead to Sponsor
 
 Communication follows structured templates for weekly status updates covering progress, next steps, risks/blockers, and decisions needed. Incident communication includes triage summaries, action plans, timelines, and scheduled blameless retrospectives.
+
+For detailed communication patterns and channels by role, see the [Role Interaction Matrix](role-interaction-matrix.md).
 
 ## Quality Assurance Practices
 
@@ -66,6 +84,8 @@ Projects maintain standard artifacts including:
 - Acceptance Criteria and Definition of Done for quality gates
 - Risk Register tracking and managing project risks
 - Retrospective notes and action items for continuous improvement
+- Role Interaction Matrix for clarifying collaboration patterns and hand-offs
+- RACI Matrix for defining accountability on key activities
 
 ## Process Documentation
 
@@ -79,6 +99,8 @@ For detailed guidance on each phase and practice, refer to these comprehensive p
 - [Release and Deployment](octoacme-release-and-deployment.md) - Standardized release processes and deployment checklists
 - [Retrospective and Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) - Capturing learnings and driving improvements
 - [Roles and Personas](octoacme-roles-and-personas.md) - Detailed role definitions and responsibilities
+- [Role Interaction Matrix](role-interaction-matrix.md) - Collaboration patterns, hand-offs, and communication channels
+- [RACI Matrix Template](raci-matrix-template.md) - Accountability framework for project activities
 
 ## Getting Started
 
